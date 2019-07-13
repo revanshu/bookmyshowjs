@@ -1,0 +1,27 @@
+.seats-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seats {
+  display: flex;
+  /* width: 40px; */
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.selected {
+  background-color: green;
+}
+
+.seats.unavailable {
+  background-color: grey;
+}
+
+#normal-header,
+#executive-header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
